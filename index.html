@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Movie Search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="Modal.js"></script>
+  <link rel="stylesheet" type="text/css" href="Modal.css">
+</head>
+
+<body>
+ 
+<div id="mainDiv">
+  <div id="modal">
+    <div id="innerModal">
+      <div id="modalTitle">
+        <H2>Search For Your Movie ends Here</H2>
+        <div id="searchBars">
+          <input type="text" placeholder="Enter IMDB ID" class="searchMovie" id="searchMovieByIMDBID">
+        </div>
+        <div id="movierdl" style="display: flex">
+          <input type="radio" name="movieFlt" value="imdbID" checked> IMDB ID <br>
+          <input type="radio" name="movieFlt" value="yearAndTitle"> YEAR and TITLE<br>
+        </div>
+      </div>
+      <hr style="height:3px;border:none;color:#333;background-color:#333;">
+      <div id="modalBody" class="row"></div>
+      <img src="loading.gif" id="loading" />
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

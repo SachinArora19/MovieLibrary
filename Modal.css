@@ -1,0 +1,32 @@
+#modal {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+  left: 0;
+  overflow-y: hidden;
+}
+#innerModal {
+    margin: 8%;
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+.searchMovie {
+    border-radius: 5px;
+    color:white;
+    border: 2px solid grey;   
+    width: 95%;
+    height: 60%;
+    min-height: 5vh;
+    font-size: 2em;
+    background-color: black;
+}
+#movierdl {
+font-size: 1em;
+margin-left:30vw;
+}
